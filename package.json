@@ -1,0 +1,44 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "MongoDB, Node, and React app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev:server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev:bundler": "webpack -w --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BParajuli/fullstack-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BParajuli/fullstack-js/issues"
+  },
+  "homepage": "https://github.com/BParajuli/fullstack-js#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.5.0",
+    "eslint": "^8.8.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.5.0",
+    "nodemon": "^2.0.15",
+    "react-test-renderer": "^17.0.2"
+  }
+}
